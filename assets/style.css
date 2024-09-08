@@ -1,0 +1,66 @@
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    background-color: #d6d6d6;;
+    margin: 0;
+    }
+
+    header {
+        background-color: #021526; 
+        color: #48CFCB; 
+        padding: 10px; 
+        text-align: center;
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    h1#head_name {    
+        padding-left: 15px;
+    }
+
+    nav {
+        padding: 15px;
+        width: auto;
+        text-align: center;
+    }
+
+    a {
+        color: #48CFCB; 
+        text-decoration: none;
+         margin:0 15px;
+    }
+
+    article {
+        padding: 15px; 
+        background-color: #04243f; 
+        margin-top: 10px; 
+        color: #48CFCB;
+        border-radius: 12px;
+        text-align: justify;
+        text-justify: inter-word;
+    }
+
+    div#main_article {
+            padding: 30px; 
+            margin-top: 10px;
+    }
+
+    img {
+        object-fit: cover;
+        width: 100%;
+        height: 250px;
+    }
+
+    footer {
+        background-color: #021526;
+     color: #48CFCB;
+      padding: 5px;
+       text-align: center;
+       margin-top: 10px;
+    }
+
+    footer a {
+        text-decoration: none;
+    }

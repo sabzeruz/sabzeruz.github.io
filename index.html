@@ -4,6 +4,7 @@
     <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;500&display=swap" rel="stylesheet">
@@ -12,65 +13,25 @@
 </head>
 <body>
 
-    <!-- font style -->
-    <style>
-        body {
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    background-color: #d6d6d6;;
-    margin: 0;
-    }
-    </style>
-
         <!-- Header Design -->
-        <header style="
-        background-color: #021526; 
-        color: #48CFCB; 
-        padding: 10px; 
-        text-align: center;
-        align-items: center;
-        display: flex;
-        justify-content: space-between;
-        ">
-        <h1 style="
-        padding-left: 15px;
-        ">HoyoInfo!</h1>
+        <header>
+        <h1 id="head_name">HoyoInfo!</h1>
 
             <!-- nav -->
-        <nav style="
-        padding: 15px;
-        width: auto;
-        text-align: center;">
-            <a href="#" style="color: #48CFCB; text-decoration: none; margin:0 15px">Home</a>
-            <a href="#" style="color: #48CFCB; text-decoration: none; margin:0 15px">Genshin Impact</a>
-            <a href="#" style="color: #48CFCB; text-decoration: none; margin:0 15px">Honkai: Star Rail</a>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Genshin Impact</a>
+            <a href="#">Honkai: Star Rail</a>
         </nav>
 
         </header>
 
-            <div style=" 
-            padding: 30px; 
-            margin-top: 10px;
-            ">
+            <div id="main_article">
 
                     <!-- article-->
-                    <article style="
-                    padding: 15px; 
-                    background-color: #04243f; 
-                    color: white; 
-                    margin-top: 10px; 
-                    color: #48CFCB;
-                    border-radius: 12px;">   
-
+                    <article>   
                         <h1>Genshin Impact</h1>
-                        <img src="https://wallpapers.com/images/featured/genshin-impact-wlq3ykrxbaoadjow.webp"
-                        style="
-                        object-fit: cover;
-                        width: 100%;
-                        height: 250px;
-                        "
-                        alt="">
+                        <img src="https://wallpapers.com/images/featured/genshin-impact-wlq3ykrxbaoadjow.webp">
                         <div>
                                 <h3>Genshin Impact: the video game that's slowly taking over the world</h3>
                                     <p>Genshin Impact seems to have come from nowhere. A month ago nobody knew what it was.</p>
@@ -83,33 +44,17 @@
                                     </p>
                             </div>
                     </article>
-                    <article style="
-                    padding: 15px; 
-                    background-color: #04243f; 
-                    color: white; 
-                    margin-top: 10px; 
-                    color: #48CFCB;
-                    border-radius: 12px;
-                     margin-top: 15px;">   
-
+                    <article>   
                         <h1>Honkai: Star Rail</h1>
-                        <img src="https://images8.alphacoders.com/122/1225458.jpg"
-                        style="
-                       
-                        object-fit: cover;
-                        width: 100%;
-                        height: 250px;
-                        "
-                        alt="">
+                        <img src="https://images8.alphacoders.com/122/1225458.jpg">
                         <div>
                                 <h3>Genshin Impact: the video game that's slowly taking over the world</h3>
                                     <p>Honkai: Star Rail starts with a bang, serenading you with a symphony and blowing up a space station. You quickly ground yourself in a world with code-locked chrome doors, mech-like invaders with bladed arms, and rooms with monitors spread across the walls.
                                          Its hook of a prologue gives just enough that you can see why the story and gameplay are worth sticking around for without grinding.</p>
                                     <p>Charming characters, engaging combat, and carefully crafted worlds blend together into a game with enough content to keep you entertained for well over 50 hours, using polished versions of the progression systems from Honkai Impact 3rd and Genshin Impact to create HoYoverse’s best RPG yet.</p>
                                     <p>
-                                        Like Nintendo’s The Legend of Zelda: Breath of the Wild – which it heavily resembles, at least on a surface level – Genshin Impact is an action-packed role-playing game with a huge world, chock-full of gorgeous vistas to explore by running, climbing and gliding. 
-                                        The appearance might be similar but the feeling is significantly different. Breath of the Wild’s aesthetic is based on the beauty and solitude of nature; Genshin, by contrast, is the theme park version of that.
-                                        Where BotW was content to merely hint at hidden treasures and leave vast spaces in-between, you can’t go 30 seconds in Genshin without tripping over some glowy object or mysterious chest. A constant stream of new weapons, trinkets, crafting materials, coins and characters to play with makes it dangerously easy to keep playing.
+                                        HoYo has a reputation for crafting gacha games with a strong emphasis on story, and Honkai: Star Rail lives up to it. You play as the Trailblazer, an amnesiac protagonist who travels planet to planet on a train-like spaceship-like train called the Astral Express.
+                                         It becomes a story surrounding the train’s crew, their backstories, and the different planets they visit. The story has its own twists and turns with some questionable pacing, but eventually it leads to an entertaining outcome that kept me wanting more.
                                     </p>
                             </div>
                     </article>
@@ -121,13 +66,8 @@
 
 
     <!-- Footer Design -->
-    <footer style="background-color: #021526;
-     color: #48CFCB;
-      padding: 5px;
-       text-align: center;
-       margin-top: 10px;
-       ">
-    <p>&copy; 2024 HoyoInfo! Made with &#10084; by <a href="https://github.com/sabzeruz" style="text-decoration: none;">Sabzeruz</a> </p>
+    <footer>
+    <p>&copy; 2024 HoyoInfo! Made with &#10084; by <a href="https://github.com/sabzeruz">Sabzeruz</a> </p>
     </footer>
 </body>
 
